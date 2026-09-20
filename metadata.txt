@@ -1,0 +1,48 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=TourPlanner
+qgisMinimumVersion=3.0
+qgisMaximumVersion=4.99
+description=A modular plugin for developing, comparing, and extending various tour and route planning algorithms.
+version=0.1
+author=Philipp von Kirschbaum
+email=philipp@vonkirschbaum.com
+
+about=This plugin provides a modular and extensible framework for developing, comparing, and enhancing tour and route planning algorithms. It is designed to support multiple planning strategies, allowing algorithms to be implemented, swapped, and evaluated independently through well-defined interfaces. The plugin enables systematic experimentation with different optimization approaches, heuristics, and constraints, making it suitable for both research and real-world applications. Its flexible architecture supports easy integration into existing systems and encourages the extension of core functionality with custom algorithms, data sources, and evaluation methods. By separating algorithm logic from application logic, the plugin facilitates rapid prototyping, benchmarking, and continuous improvement of tour and route planning solutions across a wide range of use cases.
+
+tracker=https://github.com/KirschbaumP/QGIS-TourPlanner/issues
+repository=https://github.com/KirschbaumP/QGIS-TourPlanner
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=analysis, distance, network analysis, routing
+
+homepage=https://github.com/KirschbaumP/QGIS-TourPlanner
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
